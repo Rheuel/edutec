@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "MuseoModerno", sans-serif;
+    text-align: center;
+}
+
+body{
+    background-image: url("./img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    height: 5rem;
+    margin-bottom: 5rem;
+}
+
+.header{
+    display: flex;
+}
+
+header img{
+    width: 8rem;
+    margin-left: 2rem;
+}
+
+.navegacao{
+    margin-top: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 8rem;
+    font-size: 1.6rem;
+}
+
+a:hover{
+    color: #cfcbcb;
+    text-decoration:underline;
+}
+
+.centro{
+    margin-left: 60rem;
+    margin-top: 19rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.paragrafo p{
+    margin-left: 13rem;
+    margin-right: 13rem;
+}
+
+.bt{
+   margin-left: 7rem;
+}
+
+.centro button{
+    background: #41819E;
+    border-radius: 2rem;
+    color: #fff;
+    width: 14rem;
+    height: 3rem;
+    border: none;
+    margin-top: 2rem;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    
+}
+
+.centro button:hover{
+    background: #2a6d8c;
+    border-radius: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.redes{
+    display: flex;
+    align-items: end;
+    margin-top: 22.5rem;
+
+}
+
+.redes img{
+    width: 2.7rem;
+    margin-left: 3rem;
+}
+
