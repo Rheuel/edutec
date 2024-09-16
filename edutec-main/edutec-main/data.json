@@ -1,0 +1,130 @@
+{
+    "quizzes": [
+        {
+            "title": "Quiz",
+            "questions": [
+                {
+                    "question": "O que é um ecossistema marinho?",
+                    "options": [
+                        "Um ambiente localizado em regiões desérticas.",
+                        "Um ecossistema presente apenas em rios e lagos.",
+                        "Um ecossistema sob influência da água do mar.",
+                        "Um ecossistema existente nas florestas tropicais."
+                    ],
+                    "answer": "Um ecossistema sob influência da água do mar."
+                },
+                {
+                    "question": "Qual é a importância da biodiversidade marinha?",
+                    "options": [
+                        "Ela aumenta a temperatura dos oceanos.",
+                        "Ela garante o equilíbrio dos ecossistemas marinhos.",
+                        "Ela causa a acidificação dos oceanos.",
+                        "Ela reduz a quantidade de oxigênio nos mares."
+                    ],
+                    "answer": "Ela garante o equilíbrio dos ecossistemas marinhos."
+                },
+                {
+                    "question": "Como as mudanças climáticas estão impactando os oceanos?",
+                    "options": [
+                        "Aumentando a quantidade de biodiversidade marinha.",
+                        "Resfriando as águas dos oceanos.",
+                        "Causando o aquecimento e a acidificação dos oceanos.",
+                        "Estabilizando o nível dos mares."
+                    ],
+                    "answer": "Causando o aquecimento e a acidificação dos oceanos."
+                },
+                {
+                    "question": "O que é o talassociclo?",
+                    "options": [
+                        "O conjunto dos ecossistemas marinhos.",
+                        "Um tipo de alga encontrado nas águas profundas.",
+                        "Um ciclo biológico que ocorre nas florestas.",
+                        "Um processo de evaporação de água."
+                    ],
+                    "answer": "O conjunto dos ecossistemas marinhos."
+                },
+                {
+                    "question": "Quais são os principais efeitos do aquecimento global sobre os oceanos?",
+                    "options": [
+                        "Diminuição dos níveis do mar e resfriamento das águas.",
+                        "Aquecimento, acidificação e elevação do nível do mar.",
+                        "Aumento da salinidade e diminuição da biodiversidade.",
+                        "Expansão dos recifes de corais e elevação das correntes oceânicas."
+                    ],
+                    "answer": "Aquecimento, acidificação e elevação do nível do mar."
+                },
+                {
+                    "question": "Quais espécies marinhas são consideradas emblemáticas?",
+                    "options": [
+                        "Baleia-azul, golfinho e tubarão-branco.",
+                        "Peixe-gato, tartaruga e lula.",
+                        "Polvo, camarão e estrela-do-mar.",
+                        "Caranguejo, lula e peixe-palhaço."
+                    ],
+                    "answer": "Baleia-azul, golfinho e tubarão-branco."
+                },
+                {
+                    "question": "O que é a acidificação dos oceanos?",
+                    "options": [
+                        "A redução da quantidade de oxigênio nos oceanos.",
+                        "O aumento da acidez da água causado pela absorção de CO₂.",
+                        "A diminuição da salinidade das águas costeiras.",
+                        "O resfriamento gradual das águas profundas."
+                    ],
+                    "answer": "O aumento da acidez da água causado pela absorção de CO₂."
+                },
+                {
+                    "question": "Como os conservacionistas marinhos protegem os oceanos?",
+                    "options": [
+                        "Usando apenas métodos tradicionais de pesca.",
+                        "Focando apenas em monitorar os níveis de oxigênio.",
+                        "Utilizando princípios científicos como biologia marinha e oceanografia.",
+                        "Ignorando as mudanças climáticas e focando na pesca comercial."
+                    ],
+                    "answer": "Utilizando princípios científicos como biologia marinha e oceanografia."
+                },
+                {
+                    "question": "Qual o papel da tecnologia na exploração dos ambientes marinhos?",
+                    "options": [
+                        "Monitorar e modelar as condições dos oceanos com equipamentos avançados.",
+                        "Limitar a pesca em áreas costeiras.",
+                        "Aumentar a temperatura das águas profundas.",
+                        "Explorar apenas os recifes de corais para pesca."
+                    ],
+                    "answer": "Monitorar e modelar as condições dos oceanos com equipamentos avançados."
+                },
+                {
+                    "question": "Como o ciclo da água influencia os ecossistemas marinhos?",
+                    "options": [
+                        "Regula a química da água e sustenta comunidades biológicas.",
+                        "Aumenta a salinidade e a quantidade de dióxido de carbono.",
+                        "Diminui a evaporação dos oceanos.",
+                        "Gera precipitação em áreas desérticas."
+                    ],
+                    "answer": "Regula a química da água e sustenta comunidades biológicas."
+                },
+                {
+                    "question": "Quais são as principais ameaças enfrentadas pelos ecossistemas marinhos devido às atividades humanas?",
+                    "options": [
+                        "Aumento da biodiversidade e pesca sustentável.",
+                        "Poluição, sobrepesca e mudanças climáticas.",
+                        "Expansão dos recifes de corais e aumento da população marinha.",
+                        "Melhoria nas condições dos oceanos devido às atividades industriais."
+                    ],
+                    "answer": "Poluição, sobrepesca e mudanças climáticas."
+                },
+                {
+                    "question": "Por que a conservação marinha é crucial?",
+                    "options": [
+                        "Para aumentar o turismo em áreas costeiras.",
+                        "Para manter a saúde dos oceanos e sustentar a vida marinha.",
+                        "Para reduzir o nível dos oceanos e minimizar a pesca.",
+                        "Para acidificar os oceanos e aumentar a exploração industrial."
+                    ],
+                    "answer": "Para manter a saúde dos oceanos e sustentar a vida marinha."
+                }
+            ]
+        }
+    ]
+
+}
