@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "MuseoModerno", sans-serif;
+    text-align: center;
+}
+
+body{
+    background: #284561;
+}
+
+header{
+    height: 5rem;
+    margin-bottom: 5rem;
+}
+
+.header{
+    display: flex;
+}
+
+header img{
+    width: 8rem;
+    margin-left: 2rem;
+}
+
+.navegacao{
+    margin-top: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 8rem;
+    font-size: 1.6rem;
+}
+
+a:hover{
+    color: #cfcbcb;
+    text-decoration:underline;
+}
+
+main{
+    background: #365674;
+    width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    height: 38rem;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: #fff;
+    font-size: 3rem;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 2rem;
+}
+
+.cadastro{
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin-top: 3rem;
+    width: 15rem;
+    height: 4rem;
+    color: #ffff;
+    background: #1D40EB;
+    border-radius: 999px;
+    font-size: 1.3rem;
+    border: none;
+    font-family: "DM Sans", sans-serif;
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+
+button:hover{
+    background: #4d68ee;
+    cursor: pointer;
+    color: #dee0ed;
+}
+
+input{
+    background: #D9D9D9;
+    font-size: 1.5rem;
+    font-family: "DM Sans", sans-serif;
+    border: none;
+}
+
+label{
+    background: #D9D9D9;
+    border-radius: 1rem;
+    border: none;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+label:hover{
+    cursor: text;
+}
+
+.icones{
+    color: #7f8c8d;
+    padding: 0 5px;
+}
