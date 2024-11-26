@@ -20,11 +20,11 @@ const apiUrl = 'https://edutec-cfwr.onrender.com/api/login';
                 if (response.status === 200) {
                     const data = await response.json();
                     localStorage.setItem('userId', data.id)
-                    window.location.href = "../front-end/pages/home/home.html"
+                    window.location.href = "./pages/home/home.html"
                 } else if (response.status === 201) {
                    const data = await response.json();
                    localStorage.setItem('userId', data.id)
-                   window.location.href = "../front-end/pages copy/home/home.html"
+                   window.location.href = "./pages/home/home.html"
                 } else {
                     messageDiv.style.color = 'red';
                     messageDiv.textContent = 'Usuário ou senha inválidos.';
