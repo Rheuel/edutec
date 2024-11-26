@@ -1,26 +1,29 @@
 const form = document.getElementById('loginForm');
 const messageDiv = document.getElementById('message');
+const apiUrl = 'https://edutec-cfwr.onrender.com/api/login'; 
 
         form.addEventListener('submit', async (event) => {
-            event.preventDefault(); // Previne o recarregamento da página
+            event.preventDefault(); 
 
-            // Obtém os valores do formulário
+          
             const nome = document.getElementById('nome').value;
             const senha = document.getElementById('senha').value;
-
-            // Envia os dados para o servidor
+            
+            
             try {
-                const response = await fetch('http://localhost:5000/api/login', {
+                const response = await fetch(apiUrl, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ nome, senha })
                 });
 
                 if (response.status === 200) {
-                    localStorage.setItem("user", nome)
+                    const data = await response.json();
+                    localStorage.setItem('userId', data.id)
                     window.location.href = "../front-end/pages/home/home.html"
                 } else if (response.status === 201) {
-                   localStorage.setItem("user", nome)
+                   const data = await response.json();
+                   localStorage.setItem('userId', data.id)
                    window.location.href = "../front-end/pages copy/home/home.html"
                 } else {
                     messageDiv.style.color = 'red';

@@ -1,6 +1,6 @@
-const apiUrl = 'http://localhost:5000/api/ranking';
+const apiUrl = 'https://edutec-cfwr.onrender.com/api/ranking';
 
-        // Função para buscar e exibir os dados do ranking
+       
         async function fetchRanking() {
             try {
                 const response = await fetch(apiUrl);
@@ -8,7 +8,7 @@ const apiUrl = 'http://localhost:5000/api/ranking';
 
                 const data = await response.json();
 
-                // Exibe os dados no pódio
+               
                 document.getElementById('first-name').innerText = data[0]?.nome || 'N/A';
                 document.getElementById('first-score').innerText = data[0]?.pontos || '0';
 
@@ -22,7 +22,7 @@ const apiUrl = 'http://localhost:5000/api/ranking';
             }
         }
 
-        // Carrega o ranking ao carregar a página
+        
         fetchRanking();
 
 
